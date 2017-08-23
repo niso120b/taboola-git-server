@@ -4,6 +4,10 @@ Taboola DevOps developer, programing task.
 
 Solution By Nissim Bitan, Mamram almuni with 5 years experience in multi Cloud Developing and DevOps
 
+## Ansible
+
+The Ansible roles its set the code of the client project in the client from git and install dependencies.
+
 ## Server
 
 written in python in Flask Framework, the server listen and collect these reports, including committing user,
