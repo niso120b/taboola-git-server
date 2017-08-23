@@ -10,9 +10,7 @@ def hello_world():
 
 @app.route("/about")
 def about():
-    aboutme = "About Me \n Nissim Bitan a Mamram alumni with 5 years of experience"
-    print(about)
-
+    print("About Me \n Nissim Bitan a Mamram alumni with 5 years of experience")
 
 @app.route("/post_commit/", methods=['POST'])
 def post_commit():
