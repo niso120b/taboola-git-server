@@ -1,0 +1,18 @@
+---
+
+- name: "Install packages dependencies"
+  yum:
+    name: "{{ item }}"
+    state: present
+  with_items:
+  - git
+  - python-pip
+
+- name: "Clone Taboola Git Client code from github"
+  git:
+    repo: "{{ taboola_git_repo }}"
+    dest: "{{ taboola_git_dest }}"
+
+- name: "Install python packages from requierments file"
+  pip:
+    requirements: "{{ taboola_pip_req_path }}"

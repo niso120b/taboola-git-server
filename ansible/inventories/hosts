@@ -1,0 +1,4 @@
+[taboola-git-clients]
+client01  ansible_hosts=10.0.10.1
+client02  ansible_hosts=10.0.10.2
+client03  ansible_hosts=10.0.10.3

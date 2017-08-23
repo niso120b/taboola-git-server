@@ -1,0 +1,6 @@
+---
+
+- hosts: taboola-git-clients
+  remote_user: root
+  roles:
+    - taboola-client

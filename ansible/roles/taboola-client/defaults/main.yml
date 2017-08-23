@@ -1,0 +1,5 @@
+---
+
+taboola_git_repo: "https://github.com/niso120b/taboola-git-client.git"
+taboola_git_dest: "/opt/taboola"
+taboola_pip_req_path: "{{ taboola_git_dest }}/requirements.txt"
